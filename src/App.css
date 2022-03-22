@@ -1,38 +1,382 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  height: 50vh;
+  background-color: #0089ed;
+  color: #fff;
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-container {
+  font-family: "Poppins";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-logo-info {
+  padding: 50px 0 0 50px;
+}
+
+.span-h2 {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.header-p {
+  font-size: 16px;
+  margin: 22px 0;
+}
+
+.desc {
+  margin: 30px 0 0 30px;
+}
+
+.header-subcontainer {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container img {
+  width: 385px;
+  height: 385px;
+}
+
+.profile-flex {
+  display: flex;
+  gap: 31px;
+}
+
+.profile-section {
+  padding: 50px;
+}
+.profile-container {
+  position: relative;
+  width: 110px;
+  height: 139px;
+  padding: 20px 25px;
+  background-color: #eff8ff;
   display: flex;
   flex-direction: column;
+  border-radius: 8px;
   align-items: center;
+  margin-top: 25px;
+}
+
+.profile-container p {
+  color: #adadad;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.profile-img {
+  width: 76px;
+  margin: 8px;
+  margin-bottom: 10px;
+}
+
+.cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #737373;
+}
+
+.form-container {
+  color: #000;
+  height: 653px;
+  width: 451px;
+  background-color: #fff;
+  margin: 79px;
+  margin-top: 103px;
+  border-radius: 38px;
+  padding: 44px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h1 {
+  font-size: 44px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-signup {
+  display: flex;
+  gap: 15px;
+  margin: 43px 0;
+}
+.google {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  background-color: #e9f1ff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #4285f4;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fb svg {
+  fill: #0089ed;
+}
+.fb,
+.github {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.label-inputs {
+  margin-bottom: 42px;
+}
+
+.label-inputs input {
+  font-size: 14px;
+  width: 88%;
+  padding: 19px 25px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #adadad;
+}
+.label-inputs input:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.form-inputs {
+  position: relative;
+}
+
+.forgot-pass {
+  position: absolute;
+  bottom: -34px;
+  right: 2px;
+  color: #4285f4;
+  cursor: pointer;
+}
+.blue {
+  color: #4285f4;
+}
+.submit-btn {
+  display: flex;
+  text-decoration: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 19px 25px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0089ed;
+  color: #fff;
+  margin-top: 80px;
+  box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+.social-media-signup svg {
+  font-size: 22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/*---- List Screens ----*/
+.ticket-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.ticket-top p {
+  height: 27px;
+  border-left: 2px solid #c5c7cd;
+  padding-left: 30px;
+}
+
+.top-left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.top-left-icons {
+  color: #c5c7cd;
+}
+
+.list-screen {
+  display: flex;
+  font-family: "Mulish";
+}
+
+.menu {
+  background-color: #363740;
+  color: #a4a6b3;
+  width: 330px;
+}
+
+.menu h3 {
+  margin: 33px;
+  display: flex;
+  gap: 15px;
+}
+
+.active-menu {
+  background-color: #9fa2b438;
+  color: #dde2ff;
+  padding: 36px;
+  border-left: 2px solid #dde2ff;
+}
+
+.list-menu p {
+  padding: 18px 0;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+.second-sec {
+  border-top: 0.5px solid rgba(223, 224, 235, 0.247);
+  padding: 33px 0;
+}
+
+/* TicketList */
+table {
+  border-spacing: 0;
+}
+thead,
+tbody {
+  display: block;
+  border-bottom: 1px solid #dfe0eb;
+  padding: 32px 32px 0 32px;
+}
+
+tbody {
+  padding: 26px 32px;
+}
+
+.ticketlist-container {
+  margin: 30px;
+  border: 1px solid #dfe0eb;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sort-filter {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: #4b506d;
+}
+
+.sort-filter svg {
+  color: #c5c7cd;
+  margin-right: 8px;
+}
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+  color: #9fa2b4;
+}
+
+tr {
+  display: block;
+  padding: 10px;
+}
+
+.first-row {
+  width: 40vw;
+}
+
+.second-row {
+  width: 22vw;
+}
+.third-row {
+  width: 13vw;
+}
+.fourth-row {
+  width: 8vw;
+}
+
+.first-row img,
+.ticket-top img {
+  border-radius: 50%;
+}
+
+.ticket-top img {
+  border: 2.5px solid #dfe0eb;
+  padding: 2px;
+}
+
+.ticket-details {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+tbody h5 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.tbody-hover:hover {
+  background-color: #3752ff10;
+  cursor: pointer;
+}
+
+tbody small {
+  font-size: 13px;
+  color: #c5c7cd;
+  letter-spacing: 0.1px;
+}
+
+.fourth p {
+  color: #fff;
+  text-transform: uppercase;
+  height: 22px;
+  display: inline;
+  padding: 5px 20px;
+  border-radius: 16px;
+}
+
+.high {
+  background-color: #f12b2c;
+}
+
+.low {
+  background-color: #fec400;
+}
+
+.normal {
+  background-color: #29cc97;
+}
+
+.footer-table {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-table p {
+  display: flex;
+  align-items: end;
+  margin-left: 70px;
+  color: #9fa2b4;
+}
+
+svg {
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .header-container img {
+    display: none;
   }
 }
