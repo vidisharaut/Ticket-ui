@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Ticket-ui/static/css/main.3d103f44.css",
+    "main.js": "/Ticket-ui/static/js/main.5576fb1d.js",
+    "static/js/787.63a41cdb.chunk.js": "/Ticket-ui/static/js/787.63a41cdb.chunk.js",
+    "static/media/Saly.svg": "/Ticket-ui/static/media/Saly.6a6c8d0bff916f916b074e0c7568f946.svg",
+    "static/media/Jones.svg": "/Ticket-ui/static/media/Jones.710646de16030312663327560cce98a0.svg",
+    "static/media/Person5.svg": "/Ticket-ui/static/media/Person5.950d21e965d14f6260d9a0ad0fb6d2cc.svg",
+    "static/media/Person4.svg": "/Ticket-ui/static/media/Person4.2331d720ccb97cec749b0d97d10fe378.svg",
+    "static/media/Person2.svg": "/Ticket-ui/static/media/Person2.341c90b071efe5331d0e13cbf162f553.svg",
+    "static/media/Person3.svg": "/Ticket-ui/static/media/Person3.48a605a3e542dba4f0d59e7dd28acae9.svg",
+    "static/media/Person8.svg": "/Ticket-ui/static/media/Person8.2cd005373e40425bdc527a397facc46f.svg",
+    "static/media/Person1.svg": "/Ticket-ui/static/media/Person1.7babd736ce7e5ddae31047698f9ab75a.svg",
+    "static/media/Person6.svg": "/Ticket-ui/static/media/Person6.0a2e38e82658a6dc5b8986dcf7187ee1.svg",
+    "static/media/Person7.svg": "/Ticket-ui/static/media/Person7.9400048ddb8b6e94e4c3e5536c9cd199.svg",
+    "static/media/img2.svg": "/Ticket-ui/static/media/img2.0706daa1673b2e5f512a0abbbee5ab97.svg",
+    "static/media/img1.svg": "/Ticket-ui/static/media/img1.458d5da81c958b51b5c44bff31937e31.svg",
+    "index.html": "/Ticket-ui/index.html",
+    "static/media/logo.svg": "/Ticket-ui/static/media/logo.11fa93408d04bccd17d1b9ec3ceec6a6.svg",
+    "main.3d103f44.css.map": "/Ticket-ui/static/css/main.3d103f44.css.map",
+    "main.5576fb1d.js.map": "/Ticket-ui/static/js/main.5576fb1d.js.map",
+    "787.63a41cdb.chunk.js.map": "/Ticket-ui/static/js/787.63a41cdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d103f44.css",
+    "static/js/main.5576fb1d.js"
+  ]
+}
