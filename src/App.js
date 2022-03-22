@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/Ticket-ui" element={<Login />} />
         <Route path="/dashboard" element={<ListScreen />} />
       </Routes>
     </BrowserRouter>
